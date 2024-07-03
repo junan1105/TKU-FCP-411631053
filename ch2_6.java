@@ -1,11 +1,11 @@
-// Ch2_6, 沒有縮排的程式碼
-public class ch2_6 { //定義  
+// ch2_6, 語意錯誤的程式
+public class ch2_6 {   
     public static void main(String[] args){
-        int a=2;  //宣告整數變數a，並設值為2
-        int b=3;  //宣告整數變數b，並設值為3
-        int c=a+b; //宣告整數變數c，並設值為a+b
-             
-        System.out.println("a+b="+c);
+        int n1=12;  //宣告整數變數a，並設值為2
+        int n2=26;  //宣告整數變數b，並設值為3
+        System.out.println(n1+"+"+n2+(n1+n2));
+        System.out.println("n1+n2="+(n1+n2));
+        System.out.println((n1+n2));
     }
     
 }
