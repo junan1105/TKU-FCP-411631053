@@ -1,20 +1,18 @@
 // hm_04
 public class hm_04 {
     public static void main(String[] args) {
-        // 宣告並初始化兩個整數變數 a 和 b
+
         int a = 10;
         int b = 5;
 
-        // 計算和、差、積和商
-        int 和 = a + b;
-        int 差 = a - b;
-        int 積 = a * b;
-        int 商 = a / b;
+        int sum = a + b;
+        int difference = a - b;
+        int product = a * b;
+        int quotient = a / b;
 
-        // 打印結果
-        System.out.println("和: " + 和);
-        System.out.println("差: " + 差);
-        System.out.println("積: " + 積);
-        System.out.println("商: " + 商);
+        System.out.println("The sum of a and b is: " + sum);
+        System.out.println("The difference between a and b is: " + difference);
+        System.out.println("The product of a and b is: " + product);
+        System.out.println("The quotient of a divided by b is: " + quotient);
     }
 }
