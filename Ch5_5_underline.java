@@ -6,7 +6,7 @@ public class Ch5_5_underline {
 
         for(i=1;i<=100;i++)
            sum+=i;
-        System.out.printf("5+6+...+100=%d",sum);
+        System.out.printf("1+2+...+100=%d",sum);
 
          
         }
